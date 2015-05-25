@@ -19,5 +19,5 @@ post '/list_of_sellers' do
 end
 
 get '/' do
-  "Hi! Please see <a href='https://github.com/mikefab/challenge'>this</a> repository."
+
 end
