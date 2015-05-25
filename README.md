@@ -4,11 +4,11 @@ This service assists buyers locate the nearest seller of a particular good.
 
 The inputs are:
 
-An undirected graph as adjacency lists where nodes represent towns: [[1],[0, 4, 5], [3, 4, 5], [2, 6], [1, 2], [1, 2, 6], [3, 5],[]]
-An index of distances between neighbors where {"1-4": 43} indicates that node 1 is 43 km from node 4 and vice-versa
-A source node where the buyer is located
-A look up table of seller towns and inventory
-The item the buyer wants
+- An undirected graph as adjacency lists where nodes represent towns: [[1],[0, 4, 5], [3, 4, 5], [2, 6], [1, 2], [1, 2, 6], [3, 5],[]]
+- An index of distances between neighbors where {"1-4": 43} indicates that node 1 is 43 km from node 4 and vice-versa
+- A source node where the buyer is located
+- A look up table of seller towns and inventory
+- The item the buyer wants
 
 Post json parameters to /list_of_sellers.
 
